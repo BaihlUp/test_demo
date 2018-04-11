@@ -18,7 +18,7 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="demo.cpp">
+    <ClCompile Include="max_min.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

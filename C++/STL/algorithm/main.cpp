@@ -11,6 +11,21 @@
 查找多个：
 	search
 	search_n
+
+函数适配器：
+	bind1st(op, value)
+	bind2nd(op, value)
+	not1(op)
+	not2(op)
+	mem_fun_ref(op)
+	mem_fun(op)
+	ptr_fun(op)
+
+预定义的函数对象
+	greater_equal<type>()
+	lesss_equal<type>()
+	greater<type>()
+	less<type>()
 */
 #include"demo.h"
 #if DEFINE
