@@ -1,0 +1,4 @@
+﻿  main.cpp
+f:\working\c++\stl\vector\main.cpp(45): warning C4018: “<”: 有符号/无符号不匹配
+  vector.vcxproj -> F:\Working\C++\STL\vector\Debug\vector.exe
+  vector.vcxproj -> F:\Working\C++\STL\vector\Debug\vector.pdb (Partial PDB)
