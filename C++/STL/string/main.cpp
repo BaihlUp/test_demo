@@ -75,6 +75,24 @@ int main()
 	cout << strTransform << endl;
 	transform(strTransform.begin(), strTransform.end(), strTransform.begin(), tolower);
 	cout << strTransform << endl;
+
+	//find_first_of
+	cout << endl << "find_first_of: " << endl;
+	string numerics("0123456789");
+	string name("r2d3k");
+	string::size_type pos = name.find_first_of(numerics);
+	if (pos != string::npos)
+		cout << "找到了，下标： " << pos << endl;
+	else
+		cout << "not found!!" << endl;
+
+	string::size_type pos1 = name.find_last_of(numerics);  //name从后往前匹配，找到首次匹配numerics的字符位置
+	//string::size_type pos1 = name.find_first_not_of(numerics); //返回在字符串中首次出现的不匹配name任何字符的首字符索引, 从0开始搜索, 如果全部匹配则返回string::npos
+	if (pos1 != string::npos)
+		cout << "找到了，下标： " << pos1 << endl;
+	else
+		cout << "not found!!" << endl;
+	cout << endl;
 	system("pause");
 	return 0;
 }

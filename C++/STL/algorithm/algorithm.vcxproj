@@ -139,8 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="max_min.cpp" />
+    <ClCompile Include="count.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="max_min.cpp" />
+    <ClCompile Include="find_search.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="demo.h" />
