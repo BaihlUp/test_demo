@@ -27,6 +27,15 @@
     <ClCompile Include="count.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="adjacent_find.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="binary_search.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bound.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="demo.h">
