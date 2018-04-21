@@ -143,6 +143,7 @@
     <ClCompile Include="binary_search.cpp" />
     <ClCompile Include="bound.cpp" />
     <ClCompile Include="compare.cpp" />
+    <ClCompile Include="copy_backward.cpp" />
     <ClCompile Include="count.cpp" />
     <ClCompile Include="for_each.cpp" />
     <ClCompile Include="main.cpp" />

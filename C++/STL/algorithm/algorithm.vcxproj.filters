@@ -42,6 +42,9 @@
     <ClCompile Include="compare.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="copy_backward.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="demo.h">

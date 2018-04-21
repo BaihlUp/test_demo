@@ -34,6 +34,10 @@ int main()
 	cout << endl << "compare demo£º" << endl;
 	compare_demo();
 
+	cout << endl << "--------------------------------------";
+	cout << endl << "modify algorithm demo£º" << endl;
+	copy_modify();
 	system("pause");
+
 	return 0;
 }

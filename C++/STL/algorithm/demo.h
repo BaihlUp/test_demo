@@ -10,3 +10,4 @@ void binary_search();
 void bound();
 void for_each();
 void compare_demo();
+void copy_modify();
