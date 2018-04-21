@@ -36,6 +36,12 @@
     <ClCompile Include="bound.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="for_each.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="compare.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="demo.h">

@@ -8,3 +8,5 @@ void count();
 void adjacent_find();
 void binary_search();
 void bound();
+void for_each();
+void compare_demo();

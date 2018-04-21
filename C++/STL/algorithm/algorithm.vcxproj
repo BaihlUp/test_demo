@@ -142,7 +142,9 @@
     <ClCompile Include="adjacent_find.cpp" />
     <ClCompile Include="binary_search.cpp" />
     <ClCompile Include="bound.cpp" />
+    <ClCompile Include="compare.cpp" />
     <ClCompile Include="count.cpp" />
+    <ClCompile Include="for_each.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="max_min.cpp" />
     <ClCompile Include="find_search.cpp" />

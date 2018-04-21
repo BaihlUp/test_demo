@@ -26,6 +26,14 @@ int main()
 	cout << endl << "bound demo£º" << endl;
 	bound();
 
+	cout << endl << "--------------------------------------";
+	cout << endl << "for_each demo£º" << endl;
+	for_each();
+
+	cout << endl << "--------------------------------------";
+	cout << endl << "compare demo£º" << endl;
+	compare_demo();
+
 	system("pause");
 	return 0;
 }
