@@ -37,7 +37,11 @@ int main()
 	cout << endl << "--------------------------------------";
 	cout << endl << "modify algorithm demo£º" << endl;
 	copy_modify();
-	system("pause");
 
+	cout << endl << "--------------------------------------";
+	cout << endl << "permutation demo£º" << endl;
+	permutaion();
+
+	system("pause");
 	return 0;
 }

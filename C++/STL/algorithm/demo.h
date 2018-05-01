@@ -11,3 +11,4 @@ void bound();
 void for_each();
 void compare_demo();
 void copy_modify();
+void permutaion();
