@@ -150,6 +150,7 @@
     <ClCompile Include="max_min.cpp" />
     <ClCompile Include="find_search.cpp" />
     <ClCompile Include="permutation.cpp" />
+    <ClCompile Include="transform.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="demo.h" />

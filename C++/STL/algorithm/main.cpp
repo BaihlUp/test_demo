@@ -42,6 +42,10 @@ int main()
 	cout << endl << "permutation demo£º" << endl;
 	permutaion();
 
+	cout << endl << "--------------------------------------";
+	cout << endl << "transform demo£º" << endl;
+	transform_alg();
+
 	system("pause");
 	return 0;
 }

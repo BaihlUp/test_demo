@@ -48,6 +48,9 @@
     <ClCompile Include="permutation.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="transform.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="demo.h">
