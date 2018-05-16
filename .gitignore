@@ -2,6 +2,7 @@
 *.d
 Debug
 .vs
+.idea
 
 # Compiled Object files
 *.slo
