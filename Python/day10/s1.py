@@ -17,7 +17,7 @@ num = 1>=1
 print(num)
 
 a = 123
-print(a.bit_length())
+print(a.bit_length())  #转换成二进制的时候的最小宽度
 
 print(name.capitalize()) #首字母大写
 
@@ -26,7 +26,7 @@ print(type(a), a)
 print(type(int(a)), int(a))  #类型转换
 
 num = "011"
-print(int(num, base=16))  #表示base进制转换
+print(int(num, base=16))  #表示num为base进制，输出转换成十进制
 
 age = 3
 print(age.bit_length())   #表示当前数字表示成二进制有几位
@@ -98,11 +98,11 @@ test12 = " \nalex "
 print(test12.lstrip())    #删除左边的空格或左边的换行
 print(test12.rstrip())    #删除右边的空格。。。
 print(test12.strip())     #删除所有的空格。。。
-print("baihl".lstrip("bax")) #从左开始匹配，把匹配到的最长字符删除,一次类推，输出"ilh"
+print("baihl".lstrip("bax")) #从左开始匹配，把匹配到的最长字符删除,一次类推，输出"ihl"
 
 test13 = str.maketrans("aeiou", "12345") #设置对应关系
 test14 = "ajljljailjlou dlkjfdfillj"
-new_test = test14.translate(test13)      #安照对应关系进行test14字符串的转换
+new_test = test14.translate(test13)      #按照对应关系进行test14字符串的转换
 print(new_test)
 
 test15 = "absdfsnlkjsljlkj"
