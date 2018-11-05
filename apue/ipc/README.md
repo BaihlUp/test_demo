@@ -14,4 +14,11 @@ popen1.c  : popen、fread、fwrite的使用方法
 	fifo_w.c : 使用mkfifo创建命名管道，并写入数据
 	fifo_r.c : 打开命名管道读数据
 
+3、存储映射（mmap）：映射文件到内存
+	mmap.c : mmap函数使用方法
+	mmap_fork.c : 父子进程间使用mmap通信
+	mmap_w.c : 向mmap映射区中写入
+	mmap_r.c : 从mmap映射区中读取
+	
+
 
