@@ -19,6 +19,14 @@ popen1.c  : popen、fread、fwrite的使用方法
 	mmap_fork.c : 父子进程间使用mmap通信
 	mmap_w.c : 向mmap映射区中写入
 	mmap_r.c : 从mmap映射区中读取
-	
+
+4、信号（signal）：
+	alarm.c：时钟信号
+	setitimer.c：更精确的时钟信号
+	kill.c ：发送指定的信号
+	signal_set.c：几个设置信号集的函数使用
+	signal.c ：使用signal函数捕捉信号
+	sigaction.c ：使用sigaction函数捕捉信号
+	catch_child.c ：父进程捕捉回收子进程
 
 
