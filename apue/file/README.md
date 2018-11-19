@@ -16,7 +16,11 @@
 	rename.c：rename函数
 	chdir_getcwd.c：chdir和getcwd函数
 	readlink.c：readlink函数
-	
+	ls-R.c：获取指定目录下所有的文件和大小
+
+3、重定向
+	dup_dup2.c：dup和dup2函数
+	fcntl_dup.c：使用fcntl实现dup2
 	
 
 
